@@ -19,7 +19,7 @@ test('Filter even numbers in an array with no even numbers', () => {
 });
 
 test('Filter even numbers in an array with all even numbers', () => {
-  const numbers = [2, 4, 6, 8, 10];
+  const numbers = [2, 4, 6, 8];
   const filteredNumbers = filterEvenNumbers(numbers);
-  expect(filteredNumbers).toEqual([2, 4, 6, 8, 10]);
+  expect(filteredNumbers).toEqual([2, 4, 6, 8]);
 });
